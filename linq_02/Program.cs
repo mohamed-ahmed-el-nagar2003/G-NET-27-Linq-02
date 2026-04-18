@@ -84,6 +84,20 @@ namespace linq_02
             // };
             #endregion
 
+            #region Q_10
+            //10. Calculate the total number of units in stock across all products
+            //var totalUnits = Source.ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(totalUnits);
+            #endregion
+
+            #region Q_11
+            //11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var cheapestPrice =Source.ProductList.Min(p => p.UnitPrice);
+            //Console.WriteLine(cheapestPrice);
+            //var mostExpensivePrice =Source. ProductList.Max(p => p.UnitPrice);
+            //Console.WriteLine(mostExpensivePrice);
+            #endregion
+
 
             //foreach (var item in result)
             //{
