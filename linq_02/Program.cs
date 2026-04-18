@@ -50,6 +50,20 @@ namespace linq_02
             //}
             #endregion
 
+            #region Q_07
+            //Group products by Category and project only product names per group
+            //var res = Source.ProductList.GroupBy(p => p.Category);
+            //foreach (var group in res)
+            //{
+            //    Console.WriteLine(group.Key );
+            //   Console.WriteLine("-------------------");
+            //    foreach (var item in group)
+            //    {
+            //        Console.WriteLine(item.ProductName);
+            //    }
+            //    Console.WriteLine("===============================================");
+            //}
+            #endregion
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
