@@ -130,7 +130,7 @@ namespace linq_02
 
             #region Q_16
             //16. Get the first product whose price is greater than $50.
-           // var result =Source.ProductList.First(p => p.UnitPrice > 50);
+            // var result =Source.ProductList.First(p => p.UnitPrice > 50);
             //Console.WriteLine(result);
             #endregion
 
@@ -140,7 +140,13 @@ namespace linq_02
             //Console.WriteLine(result);
             #endregion
 
-         
+            #region Q_18
+            //18. Generate a multiplication table row for 7
+
+          //  var result = Enumerable.Range(1, 10).Select(x => $"7 x {x} = {7 * x}");
+
+            #endregion
+
 
 
             //foreach (var item in result)
