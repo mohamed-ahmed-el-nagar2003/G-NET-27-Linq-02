@@ -98,7 +98,12 @@ namespace linq_02
             //Console.WriteLine(mostExpensivePrice);
             #endregion
 
+            #region Q_12
+            //12. Get a distinct list of all product categories
+            //var result = Source.ProductList.Select(p => p.Category).Distinct();
 
+
+            #endregion
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
