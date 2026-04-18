@@ -64,10 +64,15 @@ namespace linq_02
             //    Console.WriteLine("===============================================");
             //}
             #endregion
-            //foreach (var item in result)
-            //{
-            //    Console.WriteLine(item);
-            //}
-        }
+
+            #region Q_08
+            //8. Find all categories that have MORE THAN 3 products
+           // var result = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
+            #endregion
+        //    foreach (var item in result)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
     }
 }
