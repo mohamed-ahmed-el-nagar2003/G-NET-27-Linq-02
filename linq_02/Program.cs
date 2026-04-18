@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Metrics;
 
 namespace linq_02
 {
@@ -67,12 +68,28 @@ namespace linq_02
 
             #region Q_08
             //8. Find all categories that have MORE THAN 3 products
-           // var result = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
+            // var result = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
             #endregion
-        //    foreach (var item in result)
-        //    {
-        //        Console.WriteLine(item);
-        //    }
-        //}
+
+            #region Q_09
+            //9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+            //var result =
+            // from c in Source.CustomerList
+            // group c by c.Country into g
+            // select new
+            // {
+            //     Country = g.Key,
+            //     Count = g.Count(),
+            //     TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            // };
+            #endregion
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+        }
     }
-}
+ }
+
