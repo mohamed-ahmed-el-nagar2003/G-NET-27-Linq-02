@@ -114,10 +114,18 @@ namespace linq_02
 
             #region Q_14
             //14. Find countries that appear in list1 but NOT in list2 (case -insensitive).
-                //string[] list1 = { "Germany", "France", "UK", "Spain" };
-              //  string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //  string[] list2 = { "france", "SPAIN", "Italy" };
             //
-           // var result = list1.Where(c => !list2.Contains(c, StringComparer.OrdinalIgnoreCase));
+            // var result = list1.Where(c => !list2.Contains(c, StringComparer.OrdinalIgnoreCase));
+            #endregion
+
+            #region Q_15
+            //15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            //var dict =Source.ProductList.ToDictionary(p => p.ProductID);
+
+            //var product18 = dict[18];
+            //Console.WriteLine(product18);
             #endregion
             //foreach (var item in result)
             //{
