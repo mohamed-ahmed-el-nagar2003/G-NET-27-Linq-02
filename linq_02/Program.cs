@@ -154,7 +154,13 @@ namespace linq_02
             //var result = Enumerable.Range(1, 30).Where(x => x % 2 == 0);
             #endregion
 
-            
+            #region Q_20
+            //Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+           // var result = Source.ProductList.Take(3).Select(p => p.ProductName).Concat(Source.CustomerList.Take(3).Select(c => c.CompanyName));
+
+            #endregion
+
+           
 
             //foreach (var item in result)
             //{
