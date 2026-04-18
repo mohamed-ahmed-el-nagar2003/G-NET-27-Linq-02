@@ -1,4 +1,7 @@
-﻿namespace linq_02
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+
+namespace linq_02
 {
     internal class Program
     {
@@ -13,6 +16,12 @@
             #region Q_02
             //2. show page 2 of products, with page size = 5
             //var result = Source.ProductList.Skip(5).Take(5);
+
+            #endregion
+
+            #region Q_03
+            //Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+            //var result = Source.ProductList.TakeWhile(p => p.UnitPrice <25).OrderBy(p => p.UnitPrice);
 
             #endregion
 
