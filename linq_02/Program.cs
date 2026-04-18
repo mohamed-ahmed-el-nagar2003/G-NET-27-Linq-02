@@ -31,7 +31,11 @@ namespace linq_02
             //Console.WriteLine(res);
             #endregion
 
-
+            #region Q_05
+            //5. Check if the ID list contains 9
+            //var res = Source.ProductList.Any(p => p.ProductID == 9);
+            //Console.WriteLine(res);
+            #endregion
 
             //foreach (var item in result)
             //{
