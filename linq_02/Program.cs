@@ -127,6 +127,14 @@ namespace linq_02
             //var product18 = dict[18];
             //Console.WriteLine(product18);
             #endregion
+
+            #region Q_16
+            //16. Get the first product whose price is greater than $50.
+            var result =Source.ProductList.First(p => p.UnitPrice > 50);
+            Console.WriteLine(result);
+            #endregion
+
+            
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
